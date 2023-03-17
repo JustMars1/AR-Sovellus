@@ -9,13 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6322320495010604900}
-  - component: {fileID: 6322320495010604901}
   - component: {fileID: 7163968484924002007}
   - component: {fileID: 1045023312104064254}
   - component: {fileID: 7404849592979086365}
   - component: {fileID: 8241246894898159757}
+  - component: {fileID: 1884294528876265180}
   m_Layer: 6
-  m_Name: Hologram
+  m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,22 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6322320495010604901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6322320495010604923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74eb6320a58134ff8a890b82bb66eaa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colors:
-  - {r: 0, g: 0.972549, b: 1, a: 0.5019608}
-  - {r: 0.038496614, g: 1, b: 0, a: 0.5019608}
-  - {r: 0, g: 0, b: 1, a: 0.5019608}
 --- !u!33 &7163968484924002007
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -131,3 +115,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1884294528876265180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6322320495010604923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74eb6320a58134ff8a890b82bb66eaa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors:
+  - {r: 0, g: 0.972549, b: 1, a: 0.5019608}
+  - {r: 0, g: 0, b: 1, a: 0.5019608}
+  - {r: 0.038496614, g: 1, b: 0, a: 0.5019608}
